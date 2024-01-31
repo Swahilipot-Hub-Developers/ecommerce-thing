@@ -3,3 +3,8 @@ db.sqlite3
 .Python
 bin/
 lib/
+
+Lib/
+Scripts/
+include/
+pyvenv.cfg

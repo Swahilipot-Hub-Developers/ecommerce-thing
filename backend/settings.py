@@ -35,6 +35,7 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
+    'jazzmin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -49,6 +50,13 @@ INSTALLED_APPS = [
     'base.apps.BaseConfig',
 ]
 
+JAZZMIN_SETTINGS = {
+    "site_title": "Sanaa Art Shop",
+    "site_header": "Sanaa Art Shop",
+    "site_brand": "Sanaa Art Shop",
+    "copyright": "SanaaArtShop",
+    "login_logo": "/images/logo.png",
+}
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
@@ -168,7 +176,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Africa/Nairobi'
 
 USE_I18N = True
 
